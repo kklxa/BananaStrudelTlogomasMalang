@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/jquery.min.js"></script>
+        <link rel="icon" href="./img/icon.png" />
+        <title>Banana Strudel Tlogomas, Malang</title>
+    </head>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white"> <a class="navbar-brand" href="./index.html"><img src="./img/logo.png"></a>
+        <button
+        class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"> <a class="nav-link" href="./index.html">Welcome<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="./index.html#menu">Today's Menu</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="./article.html">Profile</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    
+    <body>
+        <div class="block hero1 my-auto" style="background-image:url(https://images.unsplash.com/photo-1742546421358-1e6bfe2a240f?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+            <body style="background-image: url('https://images.unsplash.com/photo-1234567890abcdef'); background-size: cover; background-position: center bottom; background-repeat: no-repeat;">
+            </body>
+            <div class="container-fluid text-center">
+                 <h1 class="display-2 text-white" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-offset="0">Banana Strudel</h1>
+                <p class="lead text-white" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-delay="600">Ingat Malang, Ingat Banana STRUDEL</p>
+                <a
+                href="#menu" class="btn-text lead d-inline-block text-white border-top border-bottom mt-4 pt-1 pb-1"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">View Today's Menu</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="maincontent">
+            <div class="container">
+                <section id="menu">
+                    <div class="block menu1">
+                        <div class="buttons-container"> <a href="#" class="button button--is-active" data-target="strudelMenu">Strudel</a>
+                            <a
+                            href="#" class="button" data-target="strumiMenu">Strumi</a> 
+                            <a href="#" class="button" data-target="lapisMenu">Lapis</a> 
+                            <a href="#" class="button" data-target="cheesecakeMenu">Cheesecake</a> 
+                            <a href="#" class="button" data-target="piedankueMenu">Pie & Kue</a> 
+                        </div>
+                        <!-- Start Strudel Menu -->
+                        <div class="menu menu--is-visible" id="strudelMenu" data-aos="fade-up">
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel choco banana.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Choco Banana Strudel</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">44K</span>
+                                    </div>
+                                    <p class="item__description">Pastry berlapis renyah dengan isian pisang dan cokelat lumer. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel cheese oreo.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Cheese Oreo Strudel</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">46K</span>
+                                    </div>
+                                    <p class="item__description">Pastry renyah berlapis dengan isian keju creamy dan remahan Oreo manis. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel apple original.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Apple Original Strudel</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">44K</span>
+                                    </div>
+                                    <p class="item__description">Pastry renyah berlapis dengan isian apel asli yang segar, menghadirkan perpaduan rasa manis dan asam yang seimbang. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel apple mix.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Apple Mix Strudel</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">44K</span>
+                                    </div>
+                                    <p class="item__description">Pastry renyah berlapis dengan isian campuran apel segar yang menyuguhkan perpaduan rasa manis dan asam yang harmonis. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel apple nangka.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Apple Nangka Strudel</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">44K</span>
+                                    </div>
+                                    <p class="item__description">Pastry renyah berlapis dengan isian apel segar dan nangka manis yang menyuguhkan kombinasi cita rasa manis dan eksotik. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel choco banana cheese.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Choco Banana Cheese</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">46K</span>
+                                    </div>
+                                    <p class="item__description">Pastry renyah berlapis dengan isian coklat lumer, pisang manis, dan keju creamy yang berpadu harmonis. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel choco banana prime.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Choco Banana Prime</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">47K</span>
+                                    </div>
+                                    <p class="item__description">Pastry renyah berlapis dengan isian coklat premium, pisang manis, dan keju istimewa yang berpadu sempurna. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel choco almond.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Choco Almond Strudel</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">48K</span>
+                                    </div>
+                                    <p class="item__description">Pastry renyah berlapis dengan isian coklat lumer dan almond panggang yang berpadu harmonis. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel choco peanut.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Choco Peanut Strudel</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">44K</span>
+                                    </div>
+                                    <p class="item__description">Pastry renyah berlapis dengan isian coklat lumer dan selai kacang yang berpadu sempurna. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel banana cheese.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Banana Cheese Strudel</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">46K</span>
+                                    </div>
+                                    <p class="item__description">Pastry renyah berlapis dengan isian pisang manis dan keju creamy yang berpadu sempurna. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel cheese.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Cheese Strudel</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">45K</span>
+                                    </div>
+                                    <p class="item__description">Pastry renyah berlapis dengan isian keju creamy yang lezat. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strudel/strudel choco strawberry.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Choco Strawberry Strudel</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">48K</span>
+                                    </div>
+                                    <p class="item__description">Pastry renyah berlapis dengan isian coklat lumer dan strawberry segar yang berpadu sempurna. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Strudel Menu -->
+
+                        <!-- Start Strumi Menu -->
+                        <div class="menu" id="strumiMenu">
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strumi/strumi choco banana.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Choco Banana</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Strudel Mini yang dipadukan dengan isian cokelat dan buah pisang didalamnya. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strumi/strumi apple original.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Apple Original</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Strudel Mini yang dipadukan dengan isian buah apel didalamnya. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strumi/strumi apple mix.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Apple Mix</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Strudel Mini yang dipadukan dengan isian buah apel dan beberapa buah lainnya. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strumi/strumi cheese.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Cheese</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Strudel Mini yang dipadukan dengan isian keju didalamnya. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strumi/strumi choco banana cheese.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Choco Banana Cheese</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Strudel Mini yang dipadukan dengan isian cokelat, pisang, dan keju didalamnya. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strumi/strumi cheese oreo.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Cheese Oreo</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Strudel Mini yang dipadukan dengan isian keju dan oreo crumb didalamnya. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/strumi/strumi choco almond.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Choco Almond</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Strudel Mini yang dipadukan dengan isian cokelat dan kacang almond didalamnya. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Strumi Menu -->
+
+                        <!-- Start Lapis Menu -->
+                        <div class="menu" id="lapisMenu">
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/lapis/lapis banana.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Lapis Banana</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Kue lapis lembut dengan rasa pisang khas, dilengkapi taburan keju parut yang yang melimpah di atasnya. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/lapis/lapis apel.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Lapis Apel</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Perpaduan unik antara kue lapis dengan rasa apel khas Malang, berpadu dengan tekstur lembut. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/lapis/lapis blueberry.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Lapis Bluberry</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description"> Kue lapis dengan rasa blueberry yang manis dan sedikit asam, ditambah taburan keju yang menambah kelezatan. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/lapis/lapis pandan.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Lapis Pandan</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Kue lapis dengan aroma pandan yang khas, berpadu dengan keju parut yang gurih. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/lapis/lapis taro.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Lapis Taro</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Kue lapis dengan rasa talas yang khas, tekstur lembut, dan topping keju yang menambah cita rasa. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/lapis/lapis chocolate.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Lapis Chocolate</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Lapis coklat dengan rasa yang kaya dan taburan keju yang memberikan keseimbangan rasa manis dan gurih. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/lapis/lapis choco peanut.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Lapis Choco Peanut</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">25K</span>
+                                    </div>
+                                    <p class="item__description">Kombinasi coklat dan kacang dalam kue lapis, dilengkapi topping keju yang menambah kelezatan. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Lapis Menu -->
+                
+
+                                                <!-- Start Pie Menu -->
+                                                <div class="menu" id="piedankueMenu">
+                                                    <div class="item row align-items-center">
+                                                        <div class="col-sm-3 pr-5">
+                                                            <img class="product-img" src="./img/pie/pie banana.jpg">
+                                                        </div>
+                                                        <div class="details col-sm-9">
+                                                            <div class="item__header">
+                                                                 <h3 class="item__title">Pie Banana</h3>
+                         <span class="item__dots"></span>
+                         <span class="item__price">20K</span>
+                                                            </div>
+                                                            <p class="item__description">Pie bertekstur renyah dengan rasa pisang yang manis dan lembut. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item row align-items-center">
+                                                        <div class="col-sm-3 pr-5">
+                                                            <img class="product-img" src="./img/pie/pie apel.jpg">
+                                                        </div>
+                                                        <div class="details col-sm-9">
+                                                            <div class="item__header">
+                                                                 <h3 class="item__title">Pie Apel</h3>
+                         <span class="item__dots"></span>
+                         <span class="item__price">20K</span>
+                                                            </div>
+                                                            <p class="item__description">Pie dengan rasa apel khas Malang yang segar dengan sentuhan rasa asam manis. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item row align-items-center">
+                                                        <div class="col-sm-3 pr-5">
+                                                            <img class="product-img" src="./img/pie/pie chocolate.jpg">
+                                                        </div>
+                                                        <div class="details col-sm-9">
+                                                            <div class="item__header">
+                                                                 <h3 class="item__title">Pie Cokelat</h3>
+                         <span class="item__dots"></span>
+                         <span class="item__price">20K</span>
+                                                            </div>
+                                                            <p class="item__description">Pie renyah dengan rasa coklat creamy yang kaya rasa.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item row align-items-center">
+                                                        <div class="col-sm-3 pr-5">
+                                                            <img class="product-img" src="./img/pie/pie mix.jpg">
+                                                        </div>
+                                                        <div class="details col-sm-9">
+                                                            <div class="item__header">
+                                                                 <h3 class="item__title">Pie Mix</h3>
+                         <span class="item__dots"></span>
+                         <span class="item__price">38K</span>
+                                                            </div>
+                                                            <p class="item__description">Paket berisi berbagai varian pie dalam satu kotak, cocok untuk pilihan lebih beragam. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item row align-items-center">
+                                                        <div class="col-sm-3 pr-5">
+                                                            <img class="product-img" src="./img/kue balok/omma bolen.jpg">
+                                                        </div>
+                                                        <div class="details col-sm-9">
+                                                            <div class="item__header">
+                                                                 <h3 class="item__title">Omma Bolen</h3>
+                         <span class="item__dots"></span>
+                         <span class="item__price">44K</span>
+                                                            </div>
+                                                            <p class="item__description">Bolen khas Malang dengan lapisan pastry renyah dan isian pisang manis yang lembut. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item row align-items-center">
+                                                        <div class="col-sm-3 pr-5">
+                                                            <img class="product-img" src="./img/kue balok/kue balok susu.jpg">
+                                                        </div>
+                                                        <div class="details col-sm-9">
+                                                            <div class="item__header">
+                                                                 <h3 class="item__title">Kue Balok Susu</h3>
+                         <span class="item__dots"></span>
+                         <span class="item__price">35K</span>
+                                                            </div>
+                                                            <p class="item__description">Kue panggang coklat lembut dengan isian lumer yang creamy. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item row align-items-center">
+                                                        <div class="col-sm-3 pr-5">
+                                                            <img class="product-img" src="./img/kue balok/kue balok mini.jpg">
+                                                        </div>
+                                                        <div class="details col-sm-9">
+                                                            <div class="item__header">
+                                                                 <h3 class="item__title">Kue Balok Mini</h3>
+                         <span class="item__dots"></span>
+                         <span class="item__price">20K</span>
+                                                            </div>
+                                                            <p class="item__description">Kue balok dengan ukuran kecil yang nyaman dan mudah untuk dimakan </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item row align-items-center">
+                                                        <div class="col-sm-3 pr-5">
+                                                            <img class="product-img" src="./img/kue balok/kue balok mini.jpg">
+                                                        </div>
+                                                        <div class="details col-sm-9">
+                                                            <div class="item__header">
+                                                                 <h3 class="item__title">Kue Balok Singosari</h3>
+                         <span class="item__dots"></span>
+                         <span class="item__price">35K</span>
+                                                            </div>
+                                                            <p class="item__description">Varian kue balok khas Singosari - Malang yang memiliki tekstur lembut dengan isian lumer dan cita rasa manis gurih. </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Kue Menu -->
+                                                <!-- End Pie Menu -->
+
+                        <!-- Start Cheesecake Menu -->
+                        <div class="menu" id="cheesecakeMenu">
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/cheesecake/original cheesecake.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Butter Cheesecake Original</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">38K</span>
+                                    </div>
+                                    <p class="item__description">Cheesecake lembut dengan rasa butter yang kaya dan tekstur creamy. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/cheesecake/chocolate cheesecake.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Butter Chocolate Cheesecake</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">38K</span>
+                                    </div>
+                                    <p class="item__description">Cheesecake dengan kombinasi butter dan coklat yang nikmat. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/cheesecake/butter pandan cheesecake.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Butter Pandan Cheesecake</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">38K</span>
+                                    </div>
+                                    <p class="item__description">Cheesecake dengan aroma pandan yang wangi dan rasa lembut di lidah. </p>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/cheesecake/apple cheesecake.jpg">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">Apple Cheesecake</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">38K</span>
+                                    </div>
+                                    <p class="item__description">Cheesecake unik dengan sentuhan rasa apel khas Malang, menciptakan perpaduan manis dan segar. </p>
+                                </div>
+                            </div>
+                        <!-- End Cheesecake Menu -->
+
+                         
+                    </div>
+                    <!-- End block -->
+                    <script src="./js/mycart.js"></script>
+                    <script src="./js/mycart-custom.js"></script>
+                </section>
+            </div>
+        </div>
+        <div class="nav-item my-cart-icon">
+            <a href="#" class="wa-button" onclick="sendMessage()">
+                <img src="./img/whatsapp.png" style="width:50px;">
+            </a>
+        
+            <script>
+                function sendMessage() {
+                    let phoneNumber = "6282247612912";  // Ganti dengan nomor tujuan (gunakan format internasional tanpa "+")
+                    let message = "Halo kak, saya mau pesan produk Banana Strudel"; // Pesan otomatis
+                    let url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                    window.open(url, "_blank");
+                }
+            </script>
+        </div>
+        <footer class="block footer1 text-center">
+            <div id="contact">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <h3 class="brand-name">Banana Strudel</h3> <!-- Memperbesar tulisan -->
+        
+                            <div class="contact-item address">
+                                <i class="fa fa-map-marker"></i>
+                                <div class="address-text">
+                                    <p>Jl. Raya Tlogomas No.77, Tlogomas, Kec. Lowokwaru,</p>
+                                    <p class="location">Kota Malang, Jawa Timur 65144</p> <!-- Dipisah ke bawah -->
+                                </div>
+                            </div>
+        
+                            <div class="contact-item">
+                                <i class="fa fa-instagram"></i>
+                                <p>@bananastrudeltlogomas.id</p>
+                            </div>
+        
+                            <div class="contact-item">
+                                <i class="fa fa-phone"></i>
+                                <p>0822-4761-2912</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        
+        
+        
+        
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="js/custom-general.js"></script>
+    </body>
+
+</html>
